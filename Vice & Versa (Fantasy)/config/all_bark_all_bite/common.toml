@@ -1,0 +1,64 @@
+
+# This category holds configs that uses numbers.
+["Numeric Config Options"]
+	#Determines the maximum horizontal distance away, in blocks, that entities can be to potentially alert Dogs and Wolves.
+	#Setting this to 0 effectively disables the feature.
+	#Range: 0 ~ 1024
+	alertable_max_xz_distance = 12
+	#Determines the maximum vertical distance away, in blocks, that entities can be to potentially alert Dogs and Wolves.
+	#Setting this to 0 effectively disables the feature.
+	#Range: 0 ~ 1024
+	alertable_max_y_distance = 6
+	#Determines the maximum horizontal distance away, in blocks, that Dogs can dig something up at.
+	#Setting this to 0 effectively disables the feature.
+	#Range: 0 ~ 1024
+	dog_dig_max_xz_distance = 10
+	#Determines the maximum vertical distance away, in blocks, that Dogs can dig something up at.
+	#Setting this to 0 effectively disables the feature.
+	#Range: 0 ~ 1024
+	dog_dig_max_y_distance = 7
+	#Determines the maximum distance away, in blocks, that Dogs can detect potential attack targets.
+	#Setting this to 0 effectively disables the feature.
+	#Range: 0 ~ 16
+	dog_target_detection_distance = 16
+	#Determines the minimum number of seconds it takes for the Houndmaster to attempt to summon new Scavengers after losing any of them.
+	#Setting this to -1 effectively disables the feature.
+	#Range: -1 ~ 1200
+	houndmaster_summon_cooldown = 30
+	#The minimum distance away a following pet must be before it will teleport to you instead of pathfinding.
+	#Setting this to 0 means the pets will always teleport.
+	#Note: Only used for the "Come" whistle command and the AI used by Dogs and Wolves.
+	#Range: 0 ~ 1024
+	pet_teleport_distance_trigger = 12
+	#Determines the maximum distance away, in blocks, that the user can target an entity with the "Attack" whistle command.
+	#Setting this to 0 effectively disables the feature.
+	#Range: 0 ~ 1024
+	whistle_attack_max_distance = 16
+	#Determines the maximum distance away, in blocks, that the user can target an entity or a block with the "Go" whistle command.
+	#Setting this to 0 effectively disables the feature.
+	#Range: 0 ~ 1024
+	whistle_go_max_distance = 16
+	#Determines the maximum trust level required to tame a trusting wolf.
+	#Setting this to 0 effectively disables the feature.
+	#Range: 0 ~ 1024
+	wolf_max_trust = 100
+	#Determines the amount the base hitbox size of a Wolf is scaled by during gameplay.
+	#Setting this to 1.0 leaves it unchanged.
+	#Range: 1.0 ~ 1024.0
+	wolf_hitbox_size_scale = 1.25
+	#Determines the starting trust level given to bred Wolf pups.
+	#Range: -1024 ~ 1024
+	wolf_starting_trust = 0
+	#Determines the maximum distance away, in blocks, that Dogs can detect potential attack targets.
+	#Setting this to 0 effectively disables the feature.
+	#Range: 0 ~ 16
+	wolf_target_detection_distance = 16
+	#Determines how much the trust level of a trusting Wolf can decrease by after hurting them.
+	#Setting this to 0 effectively disables the feature.
+	#Range: 0 ~ 1024
+	wolf_trust_decrement = 5
+	#Determines how much the trust level of a trusting Wolf can increase by after being given a wolf-liked item.
+	#Setting this to 0 effectively disables the feature.
+	#Range: 0 ~ 1024
+	wolf_trust_increment = 5
+

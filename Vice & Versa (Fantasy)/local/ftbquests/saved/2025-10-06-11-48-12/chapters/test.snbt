@@ -1,0 +1,28 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "test"
+	group: ""
+	id: "05BD0400A7BA8BA1"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		description: ["Testing Description"]
+		id: "43A49556F109B0B6"
+		rewards: [{
+			id: "494BCDD5ACCE64E6"
+			type: "xp"
+			xp: 100
+		}]
+		subtitle: "Sub"
+		tasks: [{
+			id: "2D2F2D9047B0A56F"
+			item: "minecraft:oak_log"
+			type: "item"
+		}]
+		title: "Test"
+		x: -2.5d
+		y: -3.5d
+	}]
+	title: "Test"
+}

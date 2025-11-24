@@ -1,0 +1,16 @@
+
+# This category holds configs that uses numbers.
+["Numeric Config Options"]
+	#Determines the amount the base model size of the Wolf is scaled by when rendering.
+	#Setting this to 1.0 leaves it unchanged.
+	#Note: This value will be multiplied by the server-side "wolf_hitbox_size_scale" setting for logical consistency.
+	#Range: 1.0 ~ 1024.0
+	wolf_render_size_scale = 1.0
+
+# This category holds configs that uses booleans.
+["Boolean Config Options"]
+	#Toggles the rendering changes of the Wolf.
+	#If set to true, the Wolf's model and animations will be changed by this mod.
+	#If set to false, the Wolf's model and animations will not be changed by this mod.
+	wolf_rendering_changes = true
+
