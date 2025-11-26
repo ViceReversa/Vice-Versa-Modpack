@@ -1,3 +1,0 @@
-#Shows hullback building and damage progress. Turning this off solve incompatibility issues with shaders but will sacrifice some visual flair
-hullbackArmorProgress = false
-
